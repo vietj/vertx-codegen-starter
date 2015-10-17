@@ -1,0 +1,25 @@
+## Codegen starter project
+
+Provides a vanilla project that runs Vert.x Codegen with Maven.
+
+The project generates Markdown files from the API, nothing too fancy or complicated.
+
+Clone this project to start easily with code generation.
+
+## Generation
+
+To code generate from Vert.x Core:
+
+```
+> mvn compile
+```
+
+generates a bunch of Markdown files in `src/main/md`.
+
+To code generate from Codegen TCK:
+
+```
+> mvn test-compile
+```
+
+generates a bunch of Markdown files in `src/test/md`.
